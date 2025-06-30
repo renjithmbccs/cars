@@ -1,0 +1,55 @@
+<div class="booking-form">
+  <h2>Car Booking Form</h2>
+  <form action="submit-booking.php" method="POST">
+
+    <div class="form-control">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-control">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-control">
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-control">
+      <label for="pickup">Pickup Location</label>
+      <input type="text" id="pickup" name="pickup" required>
+    </div>
+
+    <div class="form-control">
+      <label for="drop">Drop-off Location</label>
+      <input type="text" id="drop" name="drop" required>
+    </div>
+
+    <div class="form-control">
+      <label for="date">Pickup Date</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+
+    <div class="form-control">
+      <label for="time">Pickup Time</label>
+      <input type="time" id="time" name="time" required>
+    </div>
+
+    <div class="form-control">
+      <label for="car">Car Type</label>
+      <select id="car" name="car">
+        <option value="sedan">Sedan</option>
+        <option value="suv">SUV</option>
+        <option value="luxury">Luxury</option>
+        <option value="van">Van</option>
+      </select>
+    </div>
+
+    <div class="form-control">
+      <button type="submit">Book Now</button>
+    </div>
+
+  </form>
+</div>
